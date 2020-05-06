@@ -1,0 +1,231 @@
+dbus-socket-set-epoll.lo: dbus-socket-set-epoll.c \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ ../config.h dbus-socket-set.h ../dbus/dbus.h ../dbus/dbus-arch-deps.h \
+ ../dbus/dbus-macros.h ../dbus/dbus-address.h ../dbus/dbus-types.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.2.1/include/stddef.h \
+ ../dbus/dbus-errors.h ../dbus/dbus-protocol.h ../dbus/dbus-bus.h \
+ ../dbus/dbus-connection.h ../dbus/dbus-memory.h ../dbus/dbus-message.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.2.1/include/stdarg.h \
+ ../dbus/dbus-shared.h ../dbus/dbus-misc.h ../dbus/dbus-pending-call.h \
+ ../dbus/dbus-server.h ../dbus/dbus-signature.h ../dbus/dbus-syntax.h \
+ ../dbus/dbus-threads.h ../dbus/dbus-sysdeps.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.2.1/include/stdint.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/stdint.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/libc-header-start.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/long-double.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/inttypes.h \
+ ../dbus/dbus-file.h ../dbus/dbus-string.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/xlocale.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/poll.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/poll.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timespec.h \
+ ../dbus/dbus-internals.h ../dbus/dbus-threads-internal.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/errno.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/errno.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/linux/errno.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/asm/errno.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno-base.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/fcntl.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/fcntl.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/fcntl-linux.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/uio.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/types.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types/clock_t.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types/clockid_t.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types/time_t.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types/timer_t.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/endian.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/endian.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/byteswap-16.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/uintn-identity.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/select.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/select.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timeval.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/sysmacros.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/sysmacros.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/linux/falloc.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/stat.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/epoll.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/epoll.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/unistd.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/posix_opt.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/environments.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/confname.h \
+ /work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/getopt.h
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+../config.h:
+
+dbus-socket-set.h:
+
+../dbus/dbus.h:
+
+../dbus/dbus-arch-deps.h:
+
+../dbus/dbus-macros.h:
+
+../dbus/dbus-address.h:
+
+../dbus/dbus-types.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.2.1/include/stddef.h:
+
+../dbus/dbus-errors.h:
+
+../dbus/dbus-protocol.h:
+
+../dbus/dbus-bus.h:
+
+../dbus/dbus-connection.h:
+
+../dbus/dbus-memory.h:
+
+../dbus/dbus-message.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.2.1/include/stdarg.h:
+
+../dbus/dbus-shared.h:
+
+../dbus/dbus-misc.h:
+
+../dbus/dbus-pending-call.h:
+
+../dbus/dbus-server.h:
+
+../dbus/dbus-signature.h:
+
+../dbus/dbus-syntax.h:
+
+../dbus/dbus-threads.h:
+
+../dbus/dbus-sysdeps.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.2.1/include/stdint.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/stdint.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/libc-header-start.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/long-double.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/inttypes.h:
+
+../dbus/dbus-file.h:
+
+../dbus/dbus-string.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/string.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/xlocale.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/poll.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/poll.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timespec.h:
+
+../dbus/dbus-internals.h:
+
+../dbus/dbus-threads-internal.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/errno.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/errno.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/linux/errno.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/asm/errno.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno-base.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/fcntl.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/fcntl.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/fcntl-linux.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/uio.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/types.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types/clock_t.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types/clockid_t.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types/time_t.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types/timer_t.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/endian.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/endian.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/byteswap-16.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/uintn-identity.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/select.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/select.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/types/struct_timeval.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/sysmacros.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/sysmacros.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/linux/falloc.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/stat.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/sys/epoll.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/epoll.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/unistd.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/posix_opt.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/environments.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/bits/confname.h:
+
+/work/CarPlay_Box_pro/AutoPlay-BSP/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include/getopt.h:

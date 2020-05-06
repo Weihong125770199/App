@@ -1,0 +1,6 @@
+Makefile
+arm-unknown-linux-gnu/
+makefiles.mk~
+makefiles.out~
+makefiles.sed~
+

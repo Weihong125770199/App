@@ -1,0 +1,2 @@
+binddir=/work/CarPlay_Box_pro/AutoPlay-BSP/app/dhcp-4.2.5-P1/bind
+GMAKE=make
