@@ -25,6 +25,8 @@ endif
 CFLAGS += $(EXTRA_CFLAGS)
 CFLAGS += -I$(abspath ../src)
 CFLAGS += -I$(abspath ../src/utils)
+CFLAGS += -I$(DESTDIR)/include/libnl3  -I$(DESTDIR)/include  -L$(EXT_LIBS)
+
 LDFLAGS +=-Wl,--gc-sections -Wall -lpthread -lc  -ldl  -lm 
 export BINDIR ?= /bin/
 
