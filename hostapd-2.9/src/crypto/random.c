@@ -255,10 +255,10 @@ int random_pool_ready(void)
 	res = -1;
 #endif /* CONFIG_GETRANDOM */
 	if (res < 0) {
-		fd = open("/dev/random", O_RDONLY | O_NONBLOCK);
+		fd = open("/dev/urandom", O_RDONLY | O_NONBLOCK);
 		if (fd < 0) {
 			wpa_printf(MSG_ERROR,
-				   "random: Cannot open /dev/random: %s",
+				   "random: Cannot open /dev/urandom: %s",
 				   strerror(errno));
 			return -1;
 		}
@@ -267,7 +267,7 @@ int random_pool_ready(void)
 			   sizeof(dummy_key) - dummy_key_avail);
 		if (res < 0) {
 			wpa_printf(MSG_ERROR,
-				   "random: Cannot read from /dev/random: %s",
+				   "random: Cannot read from /dev/urandom: %s",
 				   strerror(errno));
 			res = 0;
 		}
