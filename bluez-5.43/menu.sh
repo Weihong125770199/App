@@ -11,6 +11,7 @@ export CC=${arm_gcc}
         PKG_CONFIG_PATH=${rootfs_path}/lib/pkgconfig \
         --disable-systemd --disable-udev --disable-cups --disable-obex --enable-library  \
         --sysconfdir=/etc \
+        --localstatedir=/var \
         --libdir=/lib
 
 
@@ -20,7 +21,7 @@ export CC=${arm_gcc}
 
 
 make
-sudo make install
+make install
 cd -
 
 
