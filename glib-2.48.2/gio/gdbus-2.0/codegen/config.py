@@ -21,5 +21,5 @@
 
 DATADIR = "${prefix}/share"
 DATADIR = DATADIR.replace(
-    "${prefix}", "/work/CarPlay_Box_pro/AutoPlay-BSP/mini_root/rootfs")
+    "${prefix}", "/home/mclasen/gnome")
 VERSION = "2.48.2"
