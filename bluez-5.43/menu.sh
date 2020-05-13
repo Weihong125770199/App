@@ -6,7 +6,7 @@ MYDIR=`dirname $0`
 cd ${MYDIR}
 export CFLAGS=${link_path}
 export CC=${arm_gcc} 
-
+export DESTDIR=${rootfs_path} 
 ./configure --host=arm-linux --prefix=${rootfs_path} \
         PKG_CONFIG_PATH=${rootfs_path}/lib/pkgconfig \
         --disable-systemd --disable-udev --disable-cups --disable-obex --enable-library  \
@@ -21,7 +21,7 @@ export CC=${arm_gcc}
 
 
 make
-make install
+make install 
 cd -
 
 
