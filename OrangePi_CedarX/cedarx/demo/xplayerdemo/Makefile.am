@@ -36,7 +36,7 @@ xplayerdemo_LDADD = $(top_srcdir)/libcore/parser/base/libcdx_parser.la \
 			$(top_srcdir)/xplayer/libxplayer.la \
 			$(top_srcdir)/libcore/common/libcdx_common.la
 
-LOCAL_LIB = -dl -rt -lpthread -lz -lm -lcdc_vdecoder -ladecoder -lm -lcdc_sdecoder -lcdc_ve \
+LOCAL_LIB = -dl -lasound -lpthread -lz -lm -lcdc_vdecoder -ladecoder -lm -lcdc_sdecoder -lcdc_ve \
 		-lcrypto -lcdc_memory -lcdc_base -lssl
 #-lsalsa
 xplayerdemo_LDFLAGS += $(LOCAL_LIB)
